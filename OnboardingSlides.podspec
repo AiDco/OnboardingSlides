@@ -9,10 +9,10 @@
 Pod::Spec.new do |spec|
   spec.name         = "OnboardingSlides"
   spec.version      = "0.0.1"
-  spec.summary      = "A short description of OnboardingSlides."
+  spec.summary      = "A short description of OnboardingSlides. A long description of OnboardingSlides"
   spec.license      = "MIT"
   spec.author       = { "Maxim Sororka" => "Maxim40a@icloud.com" }
-
+  spec.homepage     = "http://EXAMPLE/OnboardingSlides"
   spec.source       = { :git => "https://github.com/lincelon/OnboardingSlides.git", :tag => "0.0.1" }
   spec.dependency "SnapKit"
 end
