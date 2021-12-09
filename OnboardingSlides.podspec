@@ -14,5 +14,7 @@ Pod::Spec.new do |spec|
   spec.author       = { "Maxim Sororka" => "Maxim40a@icloud.com" }
   spec.homepage     = "http://EXAMPLE/OnboardingSlides"
   spec.source       = { :git => "https://github.com/lincelon/OnboardingSlides.git", :tag => "0.0.4" }
+  
+  spec.source_files = 'OnboardingSlides/*.swift'
   spec.dependency "SnapKit"
 end
