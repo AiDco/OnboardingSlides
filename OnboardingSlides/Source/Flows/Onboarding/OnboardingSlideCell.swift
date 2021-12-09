@@ -66,12 +66,14 @@ public final class OnboardingSlideCell: UICollectionViewCell {
         titleLabel.text = "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
         titleLabel.numberOfLines = 0
         titleLabel.textAlignment = .center
+        titleLabel.textColor = .white
         titleLabel.font = .systemFont(ofSize: 24)
         
         subtitleLabel = onboardingSlide.subtitleLabel
         subtitleLabel?.text = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor "
         subtitleLabel?.font = .systemFont(ofSize: 15)
         subtitleLabel?.numberOfLines = 0
+        subtitleLabel?.textColor = .white
         subtitleLabel?.textAlignment = .center
         
         scrollViewContentView.addSubview(stackView)

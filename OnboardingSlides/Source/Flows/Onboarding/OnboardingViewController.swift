@@ -11,7 +11,7 @@ import SnapKit
 public final class OnboardingViewController: UIViewController {
     // MARK: - Properties
     private let onboardingView: OnboardingView
-    
+
     // MARK: - View Lifecycle
     public init(
         onboardingSlides: [OnboardingSlide],

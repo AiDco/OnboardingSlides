@@ -32,10 +32,10 @@ public struct OnboardingSlide {
         }
         
         public init(
-            imageView: UIImageView,
+            value: UIImageView,
             constraint: ImageViewConstraint
         ) {
-            self.value = imageView
+            self.value = value
             self.constraint = constraint
         }
     }
